@@ -1,2 +1,3 @@
 # Ejercicios-Web-Escalables
-Repositorio para los ejercicios de clase
+# Horario: 19:00-20:00
+**Nombre:** Lujan Carrera Jose Rodolfo
