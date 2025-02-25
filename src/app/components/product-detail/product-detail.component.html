@@ -1,0 +1,10 @@
+<div *ngIf="product" class="product-detail">
+    <h2>{{ product.name }}</h2>
+    <img [src]="product.image" [alt]="product.name" />
+    <p><strong>Precio:</strong> ${{ product.price }}</p>
+    <p><strong>Disponibilidad:</strong> {{ product.inStock ? 'En stock' : 'Agotado' }}</p>
+    <p><strong>Oferta:</strong> {{ product.onSale ? 'Sí' : 'No' }}</p>
+</div>
+<div *ngIf="!product" class="no-product">
+    <p>Selecciona un producto para ver los detalles.</p>
+</div>

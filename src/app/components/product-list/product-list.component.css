@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+li:hover {
+    background-color: #f1f1f1;
+}
+.sale {
+    color: #1100ff;
+}
+li span {
+    color: red;
+    font-size: 12px;
+}
+h2, h3 {
+    color: #333;
+}
+.product-detail img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
